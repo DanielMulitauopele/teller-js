@@ -12,10 +12,6 @@ button:focus {
   outline: none;
 }
 
-.container-fluid {
-  height: 100%;
-}
-
 .header {
   padding-top: 50px;
 }
@@ -25,20 +21,19 @@ button:focus {
   text-align: center;
   padding: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .tag-line {
   color: #FCF7FF;
   text-align: center;
   padding: 20 px;
-  padding-top: 30px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
 }
 
 .container {
-  margin: 0 6rem 0;
+  margin: 0 5rem 0;
 }
 
 .button-card {
@@ -50,8 +45,8 @@ button:focus {
 .landing-button {
   color: #FF1053;
   background-color: #FCF7FF;
-  width: 250px;
-  height: 50px;
+  width: 25rem;
+  height: 4rem;
   margin: 10px;
   border-radius: 8px;
   font-size: 17px;
