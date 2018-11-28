@@ -1,0 +1,22 @@
+body {}
+
+button {
+  border: solid;
+  border-color: red;
+}
+
+.button-card {
+  text-align: center;
+  justify-content: center;
+}
+
+.landing-button {
+  display: block;
+  padding: 20px;
+}
+
+.header-text {
+  color:red;
+  text-align: center;
+  padding: 20px;
+}
