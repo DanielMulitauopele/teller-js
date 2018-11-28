@@ -1,0 +1,12 @@
+body {
+  background-color: blue;
+}
+
+button {
+  border: 2px;
+  border-color: pink;
+}
+
+.landing-button {
+  display: block;
+}
