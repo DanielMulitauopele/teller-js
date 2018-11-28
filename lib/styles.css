@@ -4,13 +4,20 @@ html, body {
 
 body {
   height: 100%;
-  background-color: #031F40;
+  background-image: url("./teller-background-color-uneven.png");
+  background-size: cover;
 }
 
-button {
-  background-color: #FCF7FF;
-  border: solid;
-  border-color: #FF1053;
+button:focus {
+  outline: none;
+}
+
+.row {
+  height: 10%
+}
+
+.container-fluid {
+  height: 100%;
 }
 
 .button-card {
@@ -18,15 +25,31 @@ button {
   justify-content: center;
 }
 
-.landing-button {
+.button-box {
   display: block;
-  padding: 20px;
+  padding: 40px;
+  height: 50px;
+}
+
+.landing-button {
+  color: #FF1053;
+  background-color: #FCF7FF;
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+  padding-top: 50px;
 }
 
 .header-text {
   color: #FCF7FF;
   text-align: center;
   padding: 20px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
 }
