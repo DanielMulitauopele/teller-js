@@ -1,8 +1,16 @@
-body {}
+html, body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #031F40;
+}
 
 button {
+  background-color: #FCF7FF;
   border: solid;
-  border-color: red;
+  border-color: #FF1053;
 }
 
 .button-card {
@@ -16,7 +24,9 @@ button {
 }
 
 .header-text {
-  color:red;
+  color: #FCF7FF;
   text-align: center;
   padding: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
 }
