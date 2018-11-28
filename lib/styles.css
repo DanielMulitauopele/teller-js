@@ -12,34 +12,8 @@ button:focus {
   outline: none;
 }
 
-.row {
-  height: 10%
-}
-
 .container-fluid {
   height: 100%;
-}
-
-.button-card {
-  text-align: center;
-  justify-content: center;
-}
-
-.button-box {
-  display: block;
-  padding: 40px;
-  height: 50px;
-}
-
-.landing-button {
-  color: #FF1053;
-  background-color: #FCF7FF;
-  width: 250px;
-  height: 50px;
-  border-radius: 8px;
-  font-size: 17px;
-  font-weight: 900;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .header {
@@ -51,5 +25,36 @@ button:focus {
   text-align: center;
   padding: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
+}
+
+.tag-line {
+  color: #FCF7FF;
+  text-align: center;
+  padding: 20 px;
+  padding-top: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 6rem 0;
+}
+
+.button-card {
+  text-align: center;
+  justify-content: center;
+  margin: 25rem auto 0;
+}
+
+.landing-button {
+  color: #FF1053;
+  background-color: #FCF7FF;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
 }
