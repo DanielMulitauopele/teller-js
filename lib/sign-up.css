@@ -1,37 +1,44 @@
 html, body {
   height: 100%;
-  width: 100%
+  width: 100%;
+  position: fixed;
 }
 
 body {
   background-color: #FCF7FF;
+  margin: 0;
 }
 
 header {
   background-color: #031F40;
-  height: 10rem;
+  height: 14rem;
+  justify-content: center;
 }
 
 h1 {
   color: #FCF7FF;
   text-align: center;
   margin: 0;
-  padding: 30px;
+  padding: 4rem;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 .container {
-  margin: 0 2rem 0;
+  margin: 0 7rem 0;
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 20rem 20rem 30rem 20rem;
 }
 
 .command {
   color: #031F40;
   padding: 30px;
-  padding-bottom: 10px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 3rem;
+  margin-top: 8rem;
 }
 
 p {
@@ -52,12 +59,13 @@ input {
 }
 
 .sign-input {
-  width: 30rem;
-  height: 5rem;
+  width: 45rem;
+  height: 4rem;
   padding: 20px;
-  margin: 12px auto;
+  margin: 15px auto;
   border-radius: 8px;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
 }
 
 input:focus {
@@ -68,44 +76,44 @@ input:focus {
   text-align: center;
   justify-content: center;
   margin: 1rem;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 
 .sign-up-button {
   color: #FCF7FF;
   background-color: #40798C;
-  width: 30rem;
-  height: 5rem;
-  margin: 10px;
+  width: 45rem;
+  height: 3em;
+  margin: 1rem;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
-  display: block;
   text-align: center;
 }
 
 .interrupt {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  margin: 2rem;
 }
 
 .google-button {
   color: #40798C;
   background-color: #FCF7FF;
-  width: 30rem;
-  height: 5rem;
-  margin: 10px;
+  width: 45rem;
+  height: 3em;
+  margin: 1rem;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
-  display: block;
 }
 
 .account-already {
   padding: 30px;
-  padding-top: 10px;
+  padding-top: 10rem;
   text-align: center;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 3rem;
 }
