@@ -6,11 +6,24 @@
     <title>Log In. | Teller.</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./lib/styles.css">
+    <link rel="stylesheet" href="./lib/log-in.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito" rel="stylesheet">
   </head>
   <body>
-    <h1>Log In</h1>
+    <header>
+      <h1>teller.</h1>
+    </header>
+    <div class="command">
+      <p>Please log in!</p>
+    </div>
+    <div class="inputs">
+      <input class="log-input" type="text" required minlength="4" maxlength="8" size="10" placeholder="Password">
+      <input class="log-input" type="text" required minlength="4" maxlength="8" size="10" placeholder="Email">
+    </div>
+    <div class="forgot-password">
+      <a href=""><p>Forgot your password?</p></a>
+    </div>
 
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   </body>
 </html>
