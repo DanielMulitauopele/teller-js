@@ -42,7 +42,7 @@ input {
 
 .log-input {
   width: 30rem;
-  height: 4rem;
+  height: 5rem;
   padding: 20px;
   margin: 15px auto;
   border-radius: 8px;
@@ -58,4 +58,42 @@ input:focus {
   text-align: center;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
+}
+
+.button-card {
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0 40px;
+}
+
+.log-in-button {
+  color: #FF1053;
+  background-color: #FCF7FF;
+  width: 30rem;
+  height: 5rem;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.google-button {
+  color: #FF1053;
+  background-color: #FCF7FF;
+  width: 30rem;
+  height: 5rem;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+}
+
+button {
+  justify-content: center;
 }

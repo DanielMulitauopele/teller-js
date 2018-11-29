@@ -29,7 +29,7 @@ body {
   text-align: center;
   padding: 20 px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .button-card {
@@ -42,7 +42,7 @@ body {
   color: #FF1053;
   background-color: #FCF7FF;
   width: 25rem;
-  height: 4rem;
+  height: 5rem;
   margin: 10px;
   border-radius: 8px;
   font-size: 17px;
