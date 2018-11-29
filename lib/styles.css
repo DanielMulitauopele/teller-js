@@ -8,8 +8,8 @@ body {
   background-size: cover;
 }
 
-button:focus {
-  outline: none;
+.container {
+  margin: 0 4rem 0;
 }
 
 .header {
@@ -29,11 +29,7 @@ button:focus {
   text-align: center;
   padding: 20 px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
-}
-
-.container {
-  margin: 0 4rem 0;
+  font-size: 18px;
 }
 
 .button-card {
@@ -46,10 +42,14 @@ button:focus {
   color: #FF1053;
   background-color: #FCF7FF;
   width: 25rem;
-  height: 4rem;
+  height: 5rem;
   margin: 10px;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+button:focus {
+  outline: none;
 }
