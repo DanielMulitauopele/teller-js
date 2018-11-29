@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100%
 }
 
 body {
@@ -20,7 +21,12 @@ h1 {
   font-size: 5rem;
 }
 
+.container {
+  margin: 0 2rem 0;
+}
+
 .command {
+  color: #031F40;
   padding: 30px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
@@ -29,6 +35,10 @@ h1 {
 
 p {
   margin: 0;
+}
+
+a {
+  color: #FF1053;
 }
 
 input {
@@ -55,7 +65,8 @@ input:focus {
 
 .forgot-password {
   padding: 30px;
-  text-align: center;
+  padding-top: 10px;
+  text-align: right;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
 }
@@ -64,17 +75,16 @@ input:focus {
   text-align: center;
   justify-content: center;
   margin: 1rem;
-  padding: 0 40px;
 }
 
 .log-in-button {
-  color: #FF1053;
-  background-color: #FCF7FF;
+  color: #FCF7FF;
+  background-color: #40798C;
   width: 30rem;
   height: 5rem;
   margin: 10px;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
   display: block;
@@ -82,18 +92,21 @@ input:focus {
 }
 
 .google-button {
-  color: #FF1053;
+  color: #40798C;
   background-color: #FCF7FF;
   width: 30rem;
   height: 5rem;
   margin: 10px;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
   display: block;
 }
 
-button {
-  justify-content: center;
+.no-account {
+  padding: 30px;
+  text-align: right;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
 }
