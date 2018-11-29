@@ -1,28 +1,35 @@
 html, body {
   height: 100%;
-  width: 100%
+  width: 100%;
+  position: fixed;
 }
 
 body {
   background-color: #FCF7FF;
+  margin: 0;
 }
 
 header {
   background-color: #031F40;
-  height: 10rem;
+  height: 14rem;
+  justify-content: center;
 }
 
 h1 {
   color: #FCF7FF;
   text-align: center;
   margin: 0;
-  padding: 30px;
+  padding: 4rem;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 .container {
-  margin: 0 2rem 0;
+  margin: 0 7rem 0;
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 20rem 20rem 15rem 20rem 20rem;
 }
 
 .command {
@@ -30,7 +37,8 @@ h1 {
   padding: 30px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 3rem;
+  margin-top: 8rem;
 }
 
 p {
@@ -47,16 +55,17 @@ input {
 
 .inputs {
   text-align: center;
-  justify-content: center;
+  justify-content: bottom;
 }
 
 .log-input {
-  width: 30rem;
-  height: 5rem;
+  width: 45rem;
+  height: 4rem;
   padding: 20px;
   margin: 15px auto;
   border-radius: 8px;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
 }
 
 input:focus {
@@ -64,11 +73,10 @@ input:focus {
 }
 
 .forgot-password {
-  padding: 30px;
-  padding-top: 10px;
   text-align: right;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 3rem;
+  justify-content: center;
 }
 
 .button-card {
@@ -80,28 +88,26 @@ input:focus {
 .log-in-button {
   color: #FCF7FF;
   background-color: #40798C;
-  width: 30rem;
-  height: 5rem;
+  width: 45rem;
+  height: 3em;
   margin: 10px;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
-  display: block;
   text-align: center;
 }
 
 .google-button {
   color: #40798C;
   background-color: #FCF7FF;
-  width: 30rem;
-  height: 5rem;
+  width: 45rem;
+  height: 3em;
   margin: 10px;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 2.5rem;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
-  display: block;
 }
 
 .no-account {
@@ -109,9 +115,11 @@ input:focus {
   padding: 30px;
   text-align: right;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 3rem;
+  margin-top: 1rem;
 }
 
 .no-account-plain {
   color: #031F40;
+  font-size: 3rem;
 }
