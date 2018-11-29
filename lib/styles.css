@@ -1,9 +1,9 @@
 html, body {
   height: 100%;
+  position: fixed;
 }
 
 body {
-  height: 100%;
   background-image: url("./teller-background-color-uneven.png");
   background-size: cover;
 }
@@ -33,7 +33,7 @@ button:focus {
 }
 
 .container {
-  margin: 0 5rem 0;
+  margin: 0 4rem 0;
 }
 
 .button-card {
