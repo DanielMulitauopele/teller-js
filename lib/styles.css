@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url("./teller-background-color-uneven.png");
+  background-size: cover;
+}
+
+button:focus {
+  outline: none;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.header-text {
+  color: #FCF7FF;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 70px;
+}
+
+.tag-line {
+  color: #FCF7FF;
+  text-align: center;
+  padding: 20 px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 5rem 0;
+}
+
+.button-card {
+  text-align: center;
+  justify-content: center;
+  margin: 25rem auto 0;
+}
+
+.landing-button {
+  color: #FF1053;
+  background-color: #FCF7FF;
+  width: 25rem;
+  height: 4rem;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+}
