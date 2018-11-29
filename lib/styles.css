@@ -8,8 +8,8 @@ body {
   background-size: cover;
 }
 
-button:focus {
-  outline: none;
+.container {
+  margin: 0 4rem 0;
 }
 
 .header {
@@ -32,10 +32,6 @@ button:focus {
   font-size: 15px;
 }
 
-.container {
-  margin: 0 4rem 0;
-}
-
 .button-card {
   text-align: center;
   justify-content: center;
@@ -52,4 +48,8 @@ button:focus {
   font-size: 17px;
   font-weight: 900;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+button:focus {
+  outline: none;
 }
