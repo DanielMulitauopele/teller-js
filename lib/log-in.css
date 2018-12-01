@@ -28,7 +28,6 @@ h1 {
   height: 100%;
   width: auto;
   display: grid;
-  grid-template-rows: 20rem 20rem 15rem 20rem 20rem;
 }
 
 .command {
