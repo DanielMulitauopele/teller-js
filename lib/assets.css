@@ -52,11 +52,6 @@ i {
   margin: 2.5rem;
 }
 
-a:active {
-  color: #FF1053;
-  border-color: #FF1053;
-}
-
 a.active {
   color: #FF1053;
   border-color: #FF1053;
