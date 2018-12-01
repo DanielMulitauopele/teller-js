@@ -45,6 +45,7 @@ h1 {
   display: block;
   border-top: solid;
   border-color: #031F40;
+  border-width: 5px;
 }
 
 i {
@@ -59,4 +60,5 @@ a:active {
 a.active {
   color: #FF1053;
   border-color: #FF1053;
+  border-width: 5px;
 }
