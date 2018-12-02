@@ -13,7 +13,6 @@ header {
   width: 100%;
   justify-content: center;
   position: fixed;
-  overflow: hidden;
 }
 
 h1 {
@@ -31,6 +30,7 @@ h1 {
   width: auto;
   display: grid;
   position: relative;
+  z-index: 1;
 }
 
 .command {
