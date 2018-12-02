@@ -1,6 +1,5 @@
 html, body {
   height: 100%;
-  position: fixed;
 }
 
 body {
@@ -11,7 +10,10 @@ body {
 header {
   background-color: #031F40;
   height: 14rem;
+  width: 100%;
   justify-content: center;
+  position: fixed;
+  overflow: hidden;
 }
 
 h1 {
@@ -25,9 +27,10 @@ h1 {
 
 .container {
   margin: 0 7rem 0;
-  height: 100%;
+  padding-top: 14rem;
   width: auto;
   display: grid;
+  position: relative;
 }
 
 .command {
@@ -36,7 +39,7 @@ h1 {
   text-align: center;
   font-family: 'Nunito', sans-serif;
   font-size: 3rem;
-  margin-top: 8rem;
+  margin: 8rem 0 4rem;
 }
 
 p {
@@ -75,6 +78,7 @@ input:focus {
   font-family: 'Nunito', sans-serif;
   font-size: 3rem;
   justify-content: center;
+  padding: 3rem 0;
 }
 
 .button-card {
@@ -120,4 +124,5 @@ input:focus {
 .no-account-plain {
   color: #031F40;
   font-size: 3rem;
+  padding: 2rem 0;
 }
