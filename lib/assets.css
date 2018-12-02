@@ -1,0 +1,40 @@
+.wrapper {
+  padding-top: 14rem;
+  width: 100%;
+  /* margin-left: 3rem; */
+  margin-right: 3rem;
+}
+
+.listed-coin {
+  padding: 1rem 0;
+  margin: 0 3rem 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 10% 20% 50% 20%;
+  grid-template-rows: 4rem;
+  border-bottom: 1px solid #40798C;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.rank {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.symbol {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.name {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.rank, .symbol, .name {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+}
