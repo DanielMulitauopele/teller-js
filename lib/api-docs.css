@@ -1,0 +1,22 @@
+.wrapper {
+  margin: 0 7rem 0;
+  padding-top: 14rem;
+  width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  color: #031F40;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+}
