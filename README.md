@@ -40,12 +40,12 @@ The application serves as a shell/prototype of what would be a more robust appli
 
 ## Style and Design
 
-![landing-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/Landing Page.png)
-![log-in-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/Log In Page.png)
-![sign-up-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/Sign Up Page.png)
-![assets-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/Assets Page.png)
-![exchanges-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/Exchanges Page.png)
-![transactions-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/Transactions Page.png)
+![landing-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/landing-page.png)
+![log-in-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/log-in-page.png)
+![sign-up-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/sign-up-page.png)
+![assets-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/assets-page.png)
+![exchanges-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/exchanges-page.png)
+![transactions-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/transaction-page.png)
 
 ## Tech Stack
 
