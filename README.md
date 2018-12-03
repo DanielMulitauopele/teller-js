@@ -45,7 +45,7 @@ The application serves as a shell/prototype of what would be a more robust appli
 ![sign-up-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/sign-up-page.png)
 ![assets-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/assets-page.png)
 ![exchanges-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/exchanges-page.png)
-![transactions-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/transaction-page.png)
+![transactions-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/transactions-page.png)
 
 ## Tech Stack
 
