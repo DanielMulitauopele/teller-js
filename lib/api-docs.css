@@ -1,8 +1,8 @@
 .wrapper {
   margin: 0 7rem 0;
   padding-top: 14rem;
+  padding-bottom: 12rem;
   width: auto;
-  position: relative;
   z-index: 1;
 }
 
@@ -19,4 +19,9 @@ h2 {
 p {
   font-size: 3rem;
   font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
