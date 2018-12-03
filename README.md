@@ -40,12 +40,12 @@ The application serves as a shell/prototype of what would be a more robust appli
 
 ## Style and Design
 
-<img src="/lib/landing-page.png" title="landing-page" width="10">
-<img src="/lib/log-in-page.png" title="log-in-page" width="10">
-<img src="/lib/sign-up-page.png" title="sign-up-page" width="10">
-<img src="/lib/assets-page.png" title="assets-page" width="10">
-<img src="/lib/exchanges-page.png" title="exchanges-page" width="10">
-<img src="/lib/transactions-page.png" title="transactions-page" width="10">
+<img src="/lib/landing-page.png" title="landing-page" width="250">
+<img src="/lib/log-in-page.png" title="log-in-page" width="250">
+<img src="/lib/sign-up-page.png" title="sign-up-page" width="250">
+<img src="/lib/assets-page.png" title="assets-page" width="250">
+<img src="/lib/exchanges-page.png" title="exchanges-page" width="250">
+<img src="/lib/transactions-page.png" title="transactions-page" width="250">
 
 ## Tech Stack
 
