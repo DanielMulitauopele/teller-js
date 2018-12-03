@@ -4,6 +4,7 @@
     <title>Assets | Teller.</title>
 
     <link rel="stylesheet" href="./lib/header_navbar.css">
+    <link rel="stylesheet" href="./lib/transactions.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
@@ -11,11 +12,14 @@
     <header>
       <h1>teller.</h1>
     </header>
-    <div class="container">
-
-
-
-
+    <div class="transaction-header">
+      <p class="currency-in">Currency In</p>
+      <p class="currency-out">Currency Out</p>
+      <p class="amount">Amount Traded In</p>
+      <p class="timestamp">Timestamp</p>
+    </div>
+    <div class="wrapper">
+      <!-- <i id="loading" class="fas fa-spinner fa-pulse fa-3x"></i> -->
     </div>
     <div class="navbar">
       <a id="asset" href="./assets.html"><i class="fab fa-bitcoin fa-5x fa-fw"></i></a>
@@ -26,5 +30,6 @@
 
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src="./lib/header_navbar.js"></script>
+    <script src="./lib/transactions.js"></script>
   </body>
 </html>
