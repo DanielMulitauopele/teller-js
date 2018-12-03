@@ -10,6 +10,7 @@ header {
   width: 100%;
   justify-content: center;
   position: fixed;
+  z-index: 3;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
 }
 
 .container {
+  padding: 14rem 0 11rem;
   margin: 0 7rem 0;
   height: 100%;
   width: auto;
@@ -37,6 +39,7 @@ h1 {
   list-style-type: none;
   background-color: #D3D4D9;
   grid-template-columns: 25% 25% 25% 25%;
+  z-index: 2;
 }
 
 .navbar a {
