@@ -1,5 +1,7 @@
 # Teller JS
 
+DISCLAIMER: To view the app in it's full functionality, please view in mobile mode. This project was designed with a mobile first mentality, as it serves to be a prototype for later iterations. The desktop styling was delayed to better serve that purpose. 
+
 ## Relevant Links
  * [Agile Board](https://waffle.io/DanielMulitauopele/teller-js)
  * [Teller JS Production](https://danielmulitauopele.github.io/teller-js/)
