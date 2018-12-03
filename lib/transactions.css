@@ -1,16 +1,16 @@
 .wrapper {
-  padding-top: 20rem;
+  padding-top: 22rem;
   width: 100%;
   z-index: 1;
 }
 
-.exchange-header {
+.transaction-header {
   display: grid;
-  grid-template-columns: 40% 30% 30%;
-  grid-template-rows: 4rem;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 8rem;
 
-  width: 87%;
-  padding: 14rem 1rem 1rem;
+  width: 90%;
+  padding: 14rem 0 0;
   margin: 0 3rem 2rem;
   background-color: #FFFFFF;
 
@@ -21,23 +21,29 @@
   position: fixed;
 }
 
-.exchanges {
+.transactions {
   padding: 1rem 0;
   margin: 0 3rem 0;
   display: grid;
-  grid-template-columns: 40% 40% 20%;
-  grid-template-rows: 4rem;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 6rem;
   border-bottom: 1px solid #40798C;
   text-align: center;
-  font-size: 12px;
+  font-size: 24px;
   font-family: 'Nunito', sans-serif;
   z-index: 1;
 }
 
-.volume, .name {
+.currency-in, .currency-out {
   text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.trading-pairs {
+.amount {
+  text-align: center;
+}
+
+.timestamp {
   text-align: right;
 }
