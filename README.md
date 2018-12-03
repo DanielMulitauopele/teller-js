@@ -41,11 +41,11 @@ The application serves as a shell/prototype of what would be a more robust appli
 ## Style and Design
 
 ![landing-page](/lib/landing-page.png)
-![log-in-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/log-in-page.png)
-![sign-up-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/sign-up-page.png)
-![assets-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/assets-page.png)
-![exchanges-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/exchanges-page.png)
-![transactions-page](https://github.com/DanielMulitauopele/teller-js/tree/master/lib/transactions-page.png)
+![log-in-page](/lib/log-in-page.png)
+![sign-up-page](/lib/sign-up-page.png)
+![assets-page](/lib/assets-page.png)
+![exchanges-page](/lib/exchanges-page.png)
+![transactions-page](/lib/transactions-page.png)
 
 ## Tech Stack
 
